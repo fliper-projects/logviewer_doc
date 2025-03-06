@@ -25,7 +25,7 @@ In your `Podfile`
 
 ```ruby
 target '<Your Target Name>' do
-  pod 'LogViewer', :git => https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewerFramework.git, :tag => '1.0.0'
+  pod 'LogViewer', :git => 'https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewerFramework.git', :tag => '1.0.0'
 end
 ```
 
@@ -35,7 +35,7 @@ end
 
 ```ruby
 target '<Your Target Name>' do
-  pod 'LogViewer', :git => https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git, :tag => '1.0.0'
+  pod 'LogViewer', :git => 'https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git', :tag => '1.0.0'
 end
 ```
 
@@ -44,7 +44,8 @@ end
 <details><summary>Swift Package Manager</summary><ul>
 <br />
 
-In the top menu of Xcode, click on `File` then `Add Package Dependencies...` and paste the git URL.
+In the top menu of Xcode, click on `File` then `Add Package Dependencies...` and paste the git URL:
+
 * If you want the library in binary format:
 
 <br />
@@ -61,7 +62,6 @@ https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewerFramework.git
 https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git
 ```
 
-<br />
 <p align="left">
 <img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerSPMImage.png" width="600px">
 </p>
