@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/SiqueiraLucas/LogViewer/blob/main/DocImages/LogViewerSimulator.png" width="750px">
+<img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerSimulator.png" width="750px">
 </p>
 
 ## Installation
@@ -34,7 +34,7 @@ end
 In the top menu of Xcode, click on `File` then `Add Package Dependencies...` and paste the `LOG_VIEWER_URL`
 <br />
 <p align="left">
-<img src="https://github.com/SiqueiraLucas/LogViewer/blob/main/DocImages/LogViewerSPMImage.png" width="600px">
+<img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerSPMImage.png" width="600px">
 </p>
 <hr>
 
@@ -80,7 +80,7 @@ Click on the `+` button under the `Framework, Libraries, and Embedded Content` s
 
 Add `LogViewer.xcframework` and mark `Embed & Sign` option.
 <p align="left">
-<img src="https://github.com/SiqueiraLucas/LogViewer/blob/main/DocImages/LogViewerFrameworkImage.png" width="600px">
+<img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerFrameworkImage.png" width="600px">
 </p>
 
 <hr>
