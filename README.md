@@ -111,7 +111,7 @@ cd MyProject
 Download file `LogViewer.xcframework` with the command:
 
 ```bash
-curl -O https://<LOG_VIEWER_TOKEN>@raw.githubusercontent.com/FliperProjects/LogViewerFramework/refs/heads/main/LogViewer.xcframework.zip && unzip LogViewer.xcframework.zip > /dev/null && rm LogViewer.xcframework.zip
+curl -O https://<LOG_VIEWER_TOKEN>@raw.githubusercontent.com/FliperProjects/LogViewerFramework/refs/heads/main/LogViewer.xcframework.zip && unzip LogViewer.xcframework > /dev/null && rm LogViewer.xcframework.zip
 ```
 
 Open the project and, next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the `Targets` heading in the sidebar.
