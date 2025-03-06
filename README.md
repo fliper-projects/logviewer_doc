@@ -18,43 +18,85 @@
 <br />
   
 In your `Podfile`
-  
+
+* If you want the library in binary format:
+
+<br />
+
 ```ruby
 target '<Your Target Name>' do
-  pod 'LogViewer', :git => LOG_VIEWER_URL
+  pod 'LogViewer', :git => https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewerFramework.git, :tag => '1.0.0'
 end
 ```
 
-<hr>
+* If you want the library with source code:
+
+<br />
+
+```ruby
+target '<Your Target Name>' do
+  pod 'LogViewer', :git => https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git, :tag => '1.0.0'
+end
+```
+
 </ul></details>
 
 <details><summary>Swift Package Manager</summary><ul>
 <br />
 
-In the top menu of Xcode, click on `File` then `Add Package Dependencies...` and paste the `LOG_VIEWER_URL`
+In the top menu of Xcode, click on `File` then `Add Package Dependencies...` and paste the git URL.
+* If you want the library in binary format:
+
+<br />
+
+```bash
+https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewerFramework.git
+```
+
+* If you want the library with source code:
+
+<br />
+
+```bash
+https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git
+```
+
 <br />
 <p align="left">
 <img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerSPMImage.png" width="600px">
 </p>
 <hr>
 
-If you want to add it as a dependency of another package:
+To add it as a dependency of another package:
 
 In your `Package.swift`:
+
+* If you want the library in binary format:
+
+<br />
   
-```ruby
+```swift
 dependencies: [
-  .package(url: "LOG_VIEWER_URL", .exact("1.0.0"))
+  .package(url: "https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewerFramework.git", .exact("1.0.0"))
 ]
 ```
 
-If you want to depend on the LogViewer target:
+* If you want the library with source code:
 
-```ruby
+<br />
+
+```swift
+dependencies: [
+  .package(url: "https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git", .exact("1.0.0"))
+]
+```
+
+To depend on the LogViewer target:
+
+```swift
 .product(name: "LogViewer", package: "LogViewer")
 ```
 
-<hr>
 </ul></details>
 
 <details><summary>Manually</summary><ul>
@@ -66,10 +108,10 @@ In terminal, open the root folder of your project:
 cd MyProject
 ```
 
-Download file `LogViewer.xcframework`
+Download file `LogViewer.xcframework` with the command:
 
 ```bash
-curl -O LOG_VIEWER_FRAMEWORK_URL
+curl -O https://<LOG_VIEWER_TOKEN>@raw.githubusercontent.com/FliperProjects/LogViewerFramework/refs/heads/main/LogViewer.xcframework.zip && unzip LogViewer.xcframework.zip > /dev/null && rm LogViewer.xcframework.zip
 ```
 
 Open the project and, next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the `Targets` heading in the sidebar.
@@ -83,7 +125,6 @@ Add `LogViewer.xcframework` and mark `Embed & Sign` option.
 <img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerFrameworkImage.png" width="600px">
 </p>
 
-<hr>
 </ul></details>
 
 ## Configuration
@@ -116,7 +157,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-<hr>
 </ul></details>
 
 <details><summary>SwiftUI</summary><ul>
@@ -143,7 +183,6 @@ struct MyApp: App {
 }
 ```
 
-<hr>
 </ul></details>
 
 ## Usage
@@ -178,7 +217,6 @@ Just send the `modelType` parameter to the default function that makes the reque
   ...
 ```
 
-<hr>
 </ul></details>
   
 <details><summary>Manual</summary><ul>
@@ -197,7 +235,6 @@ Call LogViewerProvider to register request in your custom request function:
   )
 ```
 
-<hr>
 </ul></details>
 
 </ul></details>
@@ -216,7 +253,6 @@ Record any other information you deem necessary. Analytics for example:
   )
 ```
 
-<hr>
 </ul></details>
 
 
