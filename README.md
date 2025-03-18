@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-   -------------------> <a href="https://payhip.com/b/4giJC" target="_blank">GET TOKEN HERE</a> <-------------------
+   -------------------> <a href="https://pay.hotmart.com/F98735511K" target="_blank">GET TOKEN HERE</a> <-------------------
 </p>
 
 ## Installation
@@ -28,7 +28,7 @@ target '<Your Target Name>' do
   pod 'LogViewer', :git => 'https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git', :tag => '1.0.0'
 end
 ```
-> You can get the token [here](https://payhip.com/b/4giJC).
+> You can get the token [here](https://pay.hotmart.com/F98735511K).
 
 </ul></details>
 
@@ -40,7 +40,7 @@ In the top menu of Xcode, click on `File` then `Add Package Dependencies...` and
 ```bash
 https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git
 ```
-> You can get the token [here](https://payhip.com/b/4giJC).
+> You can get the token [here](https://pay.hotmart.com/F98735511K).
 
 <p align="left">
 <img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerSPMImage.png" width="600px">
