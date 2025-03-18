@@ -211,7 +211,7 @@ Record any other information you deem necessary. Analytics for example:
 
 ## Author
 
-Lucas Siqueira: lucassiqueira.ap@gmail.com
+Fliper: fliper.projects@gmail.com
 
 ## License
 
