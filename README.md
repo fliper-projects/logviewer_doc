@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-   -------------------> <a href="http://www.google.com">GET TOKEN HERE</a> <-------------------
+   -------------------> <a href="http://www.google.com" target="_blank">GET TOKEN HERE</a> <-------------------
 </p>
 
 ## Installation
