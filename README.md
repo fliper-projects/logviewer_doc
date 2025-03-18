@@ -12,6 +12,10 @@
 <img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerSimulator.png" width="750px">
 </p>
 
+<p align="center">
+   -------------------> <a href="http://www.google.com">GET TOKEN HERE</a> <-------------------
+</p>
+
 ## Installation
 
 <details><summary>CocoaPods</summary><ul>
@@ -24,6 +28,7 @@ target '<Your Target Name>' do
   pod 'LogViewer', :git => 'https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git', :tag => '1.0.0'
 end
 ```
+> You can get the token [here](http://www.google.com).
 
 </ul></details>
 
@@ -35,6 +40,7 @@ In the top menu of Xcode, click on `File` then `Add Package Dependencies...` and
 ```bash
 https://<LOG_VIEWER_TOKEN>@github.com/FliperProjects/LogViewer.git
 ```
+> You can get the token [here](http://www.google.com).
 
 <p align="left">
 <img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerSPMImage.png" width="600px">
@@ -118,6 +124,21 @@ struct MyApp: App {
 </ul></details>
 
 ## Usage
+
+<details><summary>Open</summary><ul>
+<br />
+
+*Make sure you have done the configuration.*
+
+To open Log Viewer, `triple-click` on an empty area of ​​the screen:
+<br />
+
+<p align="left">
+<img src="https://github.com/FliperProjects/LogViewerDoc/blob/main/img/LogViewerOpen.gif" width="250px">
+</p>
+<hr>
+
+</ul></details>
 
 <details><summary>Record Network</summary><ul>
 <br />
